@@ -1,0 +1,105 @@
+    1  clear
+    2  history -w
+    3  cd Escritorio/TreballAmbGit/
+    4  git init
+    5  clear
+    6  git commit -m "He modificat el programa per a que mostre per mantalla: Hola mundo."
+    7  clear
+    8  git add .
+    9  git commit -m "He modificat el programa per a que mostre per mantalla: Hola mundo."
+   10  clear
+   11  git branch proves
+   12  git checkout proves
+   13  clear
+   14  touch info.txt
+   15  git commit -m "Añadido fichero info.txt"
+   16  clear
+   17  ls
+   18  rm info.txt 
+   19  clear
+   20  touch info.txt
+   21  git add info.txt 
+   22  git commit -m "Añadido info.txt"
+   23  clear
+   24  git branch -av
+   25  man git merch
+   26  clear
+   27  history -w
+   28  clear
+   29  cd Escritorio/
+   30  mkdir TreballAmbGit
+   31  cd TreballAmbGit/
+   32  git config --list
+   33  git config --global.user.name "DavidBou"
+   34  clear
+   35  history
+   36  clear
+   37  git checkout master
+   38  clear
+   39  man git branch
+   40  git branch --merger proves 
+   41  man git merge
+   42  clear
+   43  git config --list
+   44  clear
+   45  git checkout master
+   46  man git merch
+   47  git branch -av
+   48  clear
+   49  ls -la
+   50  clear
+   51  nano .gitignore
+   52  clear
+   53  touch login.php holamundo.out logo.jpg logo.png fondo.bmp alert.gif
+   54  ls -la
+   55  nano .git
+   56  clear
+   57  git add .
+   58  git commit -m "nous fitxers"
+   59  git log
+   60  git show
+   61  git --soft HEAD~1
+   62  clear
+   63  ls -l
+   64  git status
+   65  ls -la
+   66  cp .gitignore gitignore
+   67  clear
+   68  nano gitignore 
+   69  clear
+   70  git commit -m "nous fitxers 2"
+   71  git add .
+   72  clear
+   73  git commit -m "nous fitxers 2"
+   74  git status
+   75  git show
+   76  git checkout
+   77  clear
+   78  git annotate
+   79  clear
+   80  git log -one-line
+   81  clear
+   82  man git log
+   83  clear
+   84  git diff
+   85  git log --oneline
+   86  clear
+   87  history
+   88  clear
+   89  ls
+   90  git branch -av
+   91  git merch proves
+   92  git merge proves
+   93  clear
+   94  man git merge
+   95  git checkout proves
+   96  clear
+   97  git merge master
+   98  git checkout master
+   99  git branch -d proves
+  100  clear
+  101  ls -la
+  102  nano gitignore 
+  103  history
+  104  cd Escritorio/
+  105  history >> historial.txt
